@@ -8,9 +8,9 @@ def oxford_comma(array)
     array.join(" and ")
   else
     #array.join(", ")
-    array = array[0...-1].join(", ")
-    array << ", and " + array.last
-    array
+    array2 = array[0...-1].join(", ")
+    array2 << ", and " + array.last
+    array2
   end
 end
 
